@@ -60,3 +60,6 @@ curl --location --request POST 'http://127.0.0.1:8088/words/filter' --header 'Co
     "text": "打扫房间fuck,他妈的。。。。"
 }'
 ```
+
+执行显示
+![image](https://user-images.githubusercontent.com/90187291/133043656-3a75fdc2-5193-438d-937e-b37f235662c1.png)
