@@ -1,4 +1,4 @@
-# sensitive-word-match
+# sensitive-words-filter-service
 
 一个简单的基于DFA算法和Http的敏感词过滤服务；
 
