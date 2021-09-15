@@ -44,6 +44,14 @@ client post 请求：
     }
 }
 ```
+
+curl Request demo
+```bash
+curl --location --request POST 'http://127.0.0.1:8088/words/filter' --header 'Content-Type: application/json' --data-raw '{
+    "text": "打扫房间fuck,他妈的。。。。"
+}'
+```
+
 包含敏感词的请求返回
 ```json
 {
@@ -60,12 +68,7 @@ client post 请求：
 }
 ```
 
-curl Request demo
-```bash
-curl --location --request POST 'http://127.0.0.1:8088/words/filter' --header 'Content-Type: application/json' --data-raw '{
-    "text": "打扫房间fuck,他妈的。。。。"
-}'
-```
+
 
 执行显示
 ![image](https://user-images.githubusercontent.com/90187291/133043656-3a75fdc2-5193-438d-937e-b37f235662c1.png)
