@@ -48,7 +48,7 @@ client post 请求：
 curl Request demo
 ```bash
 curl --location --request POST 'http://127.0.0.1:8088/words/filter' --header 'Content-Type: application/json' --data-raw '{
-    "text": "打扫房间fuck,他妈的。。。。"
+    "text": "GOODO  fxxk,"
 }'
 ```
 
@@ -60,10 +60,9 @@ curl --location --request POST 'http://127.0.0.1:8088/words/filter' --header 'Co
     "data": {
         "suggestion": "block",
         "sensitiveWords": [
-            "fuck",
-            "他妈的"
+            "fuck"
         ],
-        "desensitization": "打扫房间****,***。。。。"
+        "desensitization": "GOODO  ****,。"
     }
 }
 ```
