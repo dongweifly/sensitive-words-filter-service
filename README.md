@@ -1,6 +1,6 @@
 # sensitive-words-filter-service
 
-一个简单的基于DFA算法和Http的敏感词过滤服务；
+一个简单的基于DFA算法和Http的敏感词过滤服务；[基于此repo的开箱即用的service](https://github.com/dongweifly/sensitive-words-match)
 
 TODO
 - [ ] 词库文件发生变更后能自动加载
