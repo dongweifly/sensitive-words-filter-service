@@ -10,6 +10,8 @@ TODO
 
 ## Usage
 
+**START**
+
 ```bash
 go mod tidy && go build
 ```
@@ -24,26 +26,9 @@ go mod tidy && go build
 -p 指定http服务的端口；
 -d 敏感词存储的路径，路径下所有的文件会自动遍历加载到内存，不支持二级目录；
 
-http api /words/filter
+![image](https://user-images.githubusercontent.com/90187291/133043656-3a75fdc2-5193-438d-937e-b37f235662c1.png)
 
-client post 请求：
-```json
-{
-  "text": "xdcvdfdsf fuck"
-}
-```
-
-正常请求返回：
-```json
-{
-    "code":200,
-    "msg":"success",
-    "data":{
-        "suggestion":"pass",
-        "desensitization":"Hello world, 世界你好"
-    }
-}
-```
+**HTTP API**
 
 curl Request demo
 ```bash
@@ -66,8 +51,10 @@ curl --location --request POST 'http://127.0.0.1:8088/words/filter' --header 'Co
     }
 }
 ```
+## RoadMap
 
 
+## Contact
+dongwei.fly@gmail.com
 
-执行显示
-![image](https://user-images.githubusercontent.com/90187291/133043656-3a75fdc2-5193-438d-937e-b37f235662c1.png)
+
