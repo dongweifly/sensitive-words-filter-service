@@ -53,7 +53,7 @@ func FilterHandler(c *gin.Context) {
 
 	var result Result
 	result.Suggestion = "pass"
-	result.SensitiveWords, result.Desensitization = GMatchService.Match(request.Text)
+	result.SensitiveWords, result.Desensitization = MatchService.Match(request.Text, '*')
 	if len(result.SensitiveWords) > 0 {
 		result.Suggestion = "block"
 	}

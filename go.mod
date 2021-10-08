@@ -3,6 +3,8 @@ module sensitive-words-match
 go 1.16
 
 require (
+	github.com/dlclark/regexp2 v1.4.0 // indirect
+	github.com/dongweifly/sensitive-words-match v0.0.0-20210918090858-695d3c30cbce
 	github.com/gin-gonic/gin v1.7.4
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/sirupsen/logrus v1.8.1
