@@ -1,6 +1,6 @@
 # sensitive-words-filter-service
 
-[基于sensitive-words-math敏感词匹配的开箱即用的service](https://github.com/dongweifly/sensitive-words-match)
+[基于sensitive-words-math敏感词匹配的开箱即用的服务](https://github.com/dongweifly/sensitive-words-match)
 
 支持单纯词匹配，组合词，正则的匹配方式。词库从文件中加载，请求接口采用Http API；
 
